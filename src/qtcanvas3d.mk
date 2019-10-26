@@ -1,14 +1,14 @@
 # This file is part of MXE. See LICENSE.md for licensing information.
 
-PKG             := qtremoteobjects
+PKG             := qtcanvas3d
 $(PKG)_WEBSITE  := https://www.qt.io/
 $(PKG)_DESCR    := Qt
 $(PKG)_IGNORE   :=
 $(PKG)_VERSION   = $(qtbase_VERSION)
-$(PKG)_CHECKSUM := 3475a409127739930e0bf833cea5f7f605adc66ab25fac39b72ce4bf3039cc42
-$(PKG)_SUBDIR    = $(subst qtbase,qtremoteobjects,$(qtbase_SUBDIR))
-$(PKG)_FILE      = $(subst qtbase,qtremoteobjects,$(qtbase_FILE))
-$(PKG)_URL       = $(subst qtbase,qtremoteobjects,$(qtbase_URL))
+$(PKG)_CHECKSUM := c0821f1232c6bcd00648af9a5d1eade8e0397c6bfff60621e0fcdfc75561baea
+$(PKG)_SUBDIR    = $(subst qtbase,qtcanvas3d,$(qtbase_SUBDIR))
+$(PKG)_FILE      = $(subst qtbase,qtcanvas3d,$(qtbase_FILE))
+$(PKG)_URL       = $(subst qtbase,qtcanvas3d,$(qtbase_URL))
 $(PKG)_DEPS     := cc qtbase qtdeclarative
 
 define $(PKG)_UPDATE
