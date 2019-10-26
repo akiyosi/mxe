@@ -37,6 +37,7 @@ define $(PKG)_BUILD
     cd '$(1)' && ./tools/build/b2 \
         -a \
         -q \
+	-d 2 \
         -j '$(JOBS)' \
         --ignore-site-config \
         --user-config=user-config.jam \
